@@ -33,7 +33,7 @@ const [writeQuery, setWriteQuery] = useState('');
 
   return (
     <div>
-      <h1>React on Azure</h1>
+      <h1>React on Azure!</h1>
 	  <input type="text" value={writeQuery} onChange={handleInputChange} />
       {!isLoading && !isDataWritten && (
         <button onClick={handleClick}>Click me</button>
